@@ -1,4 +1,4 @@
-SRCFILES=src/main.c src/chunk.c src/memory.c src/debug.c src/value.c
+SRCFILES=src/*.c
 
 all:
 	gcc ${SRCFILES} -o out/main
